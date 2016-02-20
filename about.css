@@ -22,11 +22,11 @@ body {
   background-repeat: no-repeat;
   padding-top:-40;
 }
-sitetitle{
+
+#sitetitle{
     text-align:center;
     color:#696969;
 }
-
 
 #logo {
   padding: 0 ;
