@@ -1,0 +1,65 @@
+@charset "Shift_JIS";
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#fff;
+    color:#000;
+    font-size:100%;
+}
+#container{
+    width:96%;
+    margin:0 auto;
+    background-color:white;
+    background: url(sidebar_200.gif) repeat-y left; 
+}
+
+#header{
+    margin-bottom: 20px; /* ヘッダの下マージン */
+    padding: 10px 0; /* ヘッダのパディング（上下、左右） */
+    background-color: #f9f9f9; /* ヘッダの背景色 */
+    border-top: 10px #c0c0c0 solid; /* ヘッダの上境界線 */
+    border-bottom: 1px #c0c0c0 solid; /* ヘッダの下境界線 */
+}
+#nav{
+    float: left;
+    width: 200px; /* サイドバーの幅 */
+}
+#content{
+    float: left;
+    width: 96%; /* メインカラムの幅 */
+    margin-left:200px;
+ 
+}
+#footer{
+    clear: left; /* フロートのクリア */
+    width: 100%;
+    background-color: #ccc; /* フッタの背景色 */
+    color:#666;
+    text-align:center;
+}
+#logo{
+    padding:20 0;
+}
+#logo img {
+  max-width: 120px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+div.nav {
+width: 200px; /* ナビゲーションの幅 */
+font-size: 80%;
+}
+
+/* --- メニューエリア --- */
+div.nav ul.nl {
+margin: 0;
+padding: 0;
+border-top: 1px #c0c0c0 solid; /* 最上部の境界線 */
+list-style-type: none;
+text-align: left;
+}
+/* --- メニュー項目 --- */
+div.nav ul.nl li {
+background-color: #f5f5f5; /* 項目の背景色 */
+border-bottom: 1px #c0c0c0 solid; /* 項目の下境界線 */
+}
